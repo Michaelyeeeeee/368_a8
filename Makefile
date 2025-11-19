@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -g -s
-SRCS = a8.c dijkstra.c
+SRCS = a8.c bellman.c
 OBJS = $(SRCS:.c=.o)
 TARGET = a8
 	
